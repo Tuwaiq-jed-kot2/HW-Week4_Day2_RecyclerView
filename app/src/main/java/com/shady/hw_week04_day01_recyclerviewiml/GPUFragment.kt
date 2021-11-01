@@ -10,6 +10,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 
+// this class is useless but I did it to practice the fragment, please don't mind it at all
+
+
 class GPUFragment : Fragment() {
 
     private lateinit var gpuNameTv: TextView
