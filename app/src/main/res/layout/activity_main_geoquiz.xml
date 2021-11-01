@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:ignore="MissingDefaultResource">
 
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="24dp"
-        android:text="@string/first_question"
+        android:text="KSA Capital is Hail"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="24sp"
@@ -29,7 +29,7 @@
         android:layout_marginEnd="84dp"
         android:layout_marginBottom="324dp"
         android:layout_weight="1"
-        android:text="@string/true_button"
+        android:text="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -40,7 +40,7 @@
         android:layout_marginStart="84dp"
         android:layout_marginBottom="324dp"
         android:layout_weight="1"
-        android:text="@string/false_button"
+        android:text="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -61,7 +61,7 @@
         android:layout_height="59dp"
         android:layout_marginEnd="156dp"
         android:layout_marginBottom="176dp"
-        android:text="@string/cheat_button"
+        android:text="Cheat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -72,7 +72,7 @@
         android:layout_marginEnd="84dp"
         android:layout_marginBottom="248dp"
         android:layout_weight="1"
-        android:text="@string/next_button"
+        android:text="next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -83,7 +83,7 @@
         android:layout_marginStart="84dp"
         android:layout_marginBottom="248dp"
         android:layout_weight="1"
-        android:text="@string/previous_button"
+        android:text="previous"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

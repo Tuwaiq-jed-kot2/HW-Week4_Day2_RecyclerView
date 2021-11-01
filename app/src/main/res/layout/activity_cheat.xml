@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CheatActivity">
+    >
 
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="196dp"
         android:layout_marginEnd="100dp"
-        android:text="@string/warning_message"
+        android:text="are you sure you want to cheat?"
         android:textColor="#0B0B0B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="132dp"
         android:layout_marginBottom="300dp"
-        android:text="@string/show_answer_button"
+        android:text="show answer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
