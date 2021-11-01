@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name_view"
+        android:layout_width="٢٣٤dp"
+        android:layout_height="٨٠dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="٥٨dp"
+        tools:layout_editor_absoluteY="٠dp" />
+
+    <TextView
+        android:id="@+id/num_view"
+        android:layout_width="١١٣dp"
+        android:layout_height="٥٩dp"
+        android:text="TextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
