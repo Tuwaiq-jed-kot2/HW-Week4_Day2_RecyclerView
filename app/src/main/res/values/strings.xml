@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HW-Week04_Day01_RecyclerView.iml</string>
+    <string name="crime_title_hint">crime_title_hint</string>
+    <string name="crime_details_label">crime_details_label</string>
+    <string name="crime_solved_label">crime_solved_label</string>
+    <string name="crime_title_label">crime_title_label</string>
 </resources>
