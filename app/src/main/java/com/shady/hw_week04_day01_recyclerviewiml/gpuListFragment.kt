@@ -79,6 +79,7 @@ class GpuListFragment : Fragment() {
 
     private inner class GPUAdapter (var GPUs:List<GPUs>) : RecyclerView.Adapter<GPUHolder>(){
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GPUHolder {
+
             val view = layoutInflater.inflate(R.layout.fragment_gpu,parent,false)
 
             return GPUHolder(view)
@@ -94,4 +95,6 @@ class GpuListFragment : Fragment() {
 
     }
 
+
+    
 }
