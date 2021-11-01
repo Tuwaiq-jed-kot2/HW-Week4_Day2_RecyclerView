@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/activity_cheat.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/activity_main.xml" value="0.31476449275362317" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/activity_main_Geoquiz.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/fragment_gpu.xml" value="0.5" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/fragment_list_gpu.xml" value="0.31476449275362317" />
       </map>
