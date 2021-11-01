@@ -61,9 +61,9 @@ class GpuListFragment : Fragment() {
             gpuName.text = GPU.name
             gpuReleaseDate.text = GPU.releaseDate
             rtx.visibility = if (GPU.RTX){
-                View.GONE
-            }else{
                 View.VISIBLE
+            }else{
+                View.GONE
             }
         }
 
@@ -79,7 +79,7 @@ class GpuListFragment : Fragment() {
 
     private inner class GPUAdapter (var GPUs:List<GPUs>) : RecyclerView.Adapter<GPUHolder>(){
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GPUHolder {
-            val view = layoutInflater.inflate(R.layout.fragment_list_gpu,parent,false)
+            val view = layoutInflater.inflate(R.layout.fragment_gpu,parent,false)
 
             return GPUHolder(view)
         }

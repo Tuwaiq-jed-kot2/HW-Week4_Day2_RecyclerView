@@ -30,5 +30,5 @@ class GPUFragment : Fragment() {
         return view
     }
 
-   
+
 }
