@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HW-Week04_Day01_RecyclerView.iml</string>
+    <string name="title">Hello</string>
+    <string name="text1">numbers</string>
+    <string name="text2">message</string>
+
 </resources>
