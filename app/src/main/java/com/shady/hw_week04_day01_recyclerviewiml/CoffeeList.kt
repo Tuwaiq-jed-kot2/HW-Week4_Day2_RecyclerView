@@ -37,7 +37,7 @@ class CoffeeList : Fragment() {
         private lateinit var coffee: Coffee
 
          private val coffeeNameTextView: TextView = itemView.findViewById(R.id.coffee_name_tv)
-          private val coffeePriceTextView: TextView = itemView.findViewById(R.id.coffee_price_tv)
+         private val coffeePriceTextView: TextView = itemView.findViewById(R.id.coffee_price_tv)
 
         init {
             coffeeNameTextView.setOnClickListener(this)
