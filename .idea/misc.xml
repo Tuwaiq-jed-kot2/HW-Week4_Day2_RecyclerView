@@ -6,6 +6,8 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/drawable/ic_launcher_background.xml" value="0.12129629629629629" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/fragment_memories.xml" value="0.1796875" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/fragment_memories_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/list_item_memories.xml" value="0.1796875" />
       </map>
     </option>
   </component>

@@ -53,11 +53,13 @@ val MemoriesListViewModel by lazy { ViewModelProvider(this).get(MemoriesListView
         private lateinit var memories: Memories
         private val titleTextView:TextView=itemView.findViewById(R.id.memory_item_title)
         private val detailsTextView:TextView=itemView.findViewById(R.id.memory_item_details)
+        private val happyImageView:ImageView=itemView.findViewById(R.id.happy_face_iv)
 
 
         init {
             titleTextView.setOnClickListener(this)
             detailsTextView.setOnClickListener(this)
+
 
         }
 
