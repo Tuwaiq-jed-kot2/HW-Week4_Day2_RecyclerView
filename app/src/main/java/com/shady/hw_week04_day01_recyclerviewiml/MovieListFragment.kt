@@ -10,6 +10,10 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.DividerItemDecoration
+
+
+
 
 
 class MovieListFragment : Fragment() {
@@ -36,6 +40,13 @@ class MovieListFragment : Fragment() {
     private fun updateUI() {
 
         val movieAdapter = MovieAdapter(movieListViewModel.movies)
+
+        movieRecyclerView.addItemDecoration(
+                DividerItemDecoration(
+                    context,
+                    LinearLayoutManager.VERTICAL
+                )
+        )
         movieRecyclerView.adapter = movieAdapter
     }
 
