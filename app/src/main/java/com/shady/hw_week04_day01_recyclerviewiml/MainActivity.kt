@@ -9,13 +9,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val currentFragment= supportFragmentManager.findFragmentById(R.id.fragment_container)//create fragment
+        val currentFragment= supportFragmentManager.findFragmentById(R.id.fragmentContainerView)//create fragment
         if (currentFragment == null){
             val fragment=ListOfFragment()
             //  val fragment=CrimeListFragment()
             supportFragmentManager
                 .beginTransaction()//we have fragment come beReady 2
-                .add(R.id.fragment_container,fragment)
+                .add(R.id.fragmentContainerView,fragment)
                 .commit()
     }
 }}

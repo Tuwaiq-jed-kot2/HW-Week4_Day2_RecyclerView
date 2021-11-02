@@ -23,7 +23,7 @@ class ListOfFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view=inflater.inflate(R.layout.fragment_list_of, container, false)
-        infoRecycleView= view.findViewById(R.id.info_recycle_view)
+        infoRecycleView= view.findViewById(R.id.info_recyclev)
         val linearLayoutManager=LinearLayoutManager(context)
         infoRecycleView.layoutManager=linearLayoutManager
         update()
@@ -68,7 +68,7 @@ class ListOfFragment : Fragment() {
    }
     private inner class InfoAdapter(var infos:List<Info>):RecyclerView.Adapter<InfoHolder>(){
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): InfoHolder {
-         val view=layoutInflater.inflate(R.layout.fragment_list_of,parent,false)
+         val view=layoutInflater.inflate(R.layout.list_of_item,parent,false)
 
             return InfoHolder(view)
         }

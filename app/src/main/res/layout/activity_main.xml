@@ -7,8 +7,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <FrameLayout
-        android:id="@+id/fragment_container"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.shady.hw_week04_day01_recyclerviewiml.ListOfFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>
