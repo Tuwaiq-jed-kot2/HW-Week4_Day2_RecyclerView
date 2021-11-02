@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">HW-Week04_Day01_RecyclerView.iml</string>
+    <string name="first_question"> the capital of KSA is riyadh </string>
+    <string name="second_question"> KSA is in africa</string>
+    <string name="third_question"> your name is ahmed </string>
+    <string name="forth_question"> kotlin is better than java </string>
+    <string name="fifth_question"> Saudi Arabia has the largest oil reserves </string>
+    <string name="sixth_question">Sudan and Egypt are known for pyramids.</string>
+    <string name="true_Button"> True </string>
+    <string name="false_Button"> False </string>
+    <string name="correct_toast"> correct </string>
+    <string name="incorrect_toast"> incorrect  </string>
+    <string name="EmptyNext"> there is no questions left  </string>
+    <string name="EmptyBack"> there is no previous question  </string>
+    <string name="cheatButton"> CHEAT  </string>
+    <string name="showAnsButton"> SHOW ANSWER  </string>
+    <string name="wMsg"> Are you shore you gonna cheat..?  </string>
+    <string name="ToastG"> you are cheater!!   </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
