@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 
 class List_viewModle:ViewModel() {
     var lists= mutableListOf<List1>()
-    val letter= listOf(
+     val letter= listOf(
         "A","B","C","D","J","U","O","P","Q","M","A","X","V","S","B","R"
     )
     init {

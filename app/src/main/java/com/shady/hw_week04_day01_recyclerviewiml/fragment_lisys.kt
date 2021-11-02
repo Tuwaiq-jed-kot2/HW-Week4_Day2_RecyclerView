@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class Fragment_lisys:Fragment() {
     private lateinit var listRecyclView: RecyclerView
+
     val listViewmodle by lazy {
     ViewModelProvider(this).get(List_viewModle::class.java)
             }
@@ -23,7 +24,7 @@ class Fragment_lisys:Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.second, container, false)
-        listRecyclView = view.findViewById(R.id.second)
+        listRecyclView = view.findViewById(R.id.secondRe)
         val linearLayoutManager = LinearLayoutManager(context)
         listRecyclView.layoutManager = linearLayoutManager
         update()
@@ -33,9 +34,9 @@ class Fragment_lisys:Fragment() {
         val list1Apdator = ListAdaptor(listViewmodle.lists)
         listRecyclView.adapter = list1Apdator
     }
-    private inner class list0ViewHolder(list1: View)
-        :RecyclerView.ViewHolder(list1),View.OnClickListener{
-    private  var list4=list1
+    private inner class list0ViewHolder(view: View)
+        :RecyclerView.ViewHolder(view),View.OnClickListener{
+    private lateinit var list4:List1
 
          val TitltV:TextView= itemView.findViewById(R.id.textView2)
          val numT:TextView= itemView.findViewById(R.id.textView3)
@@ -45,7 +46,7 @@ class Fragment_lisys:Fragment() {
          numT.setOnClickListener (this)
         }
         fun bind (listt: List1){
-            this.list4=list4
+            this.list4=listt
             TitltV.text=listt.title
             numT.text=listt.title
             isImage.visibility=if (listt.isDone){
