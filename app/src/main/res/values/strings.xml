@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">HW-Week04_Day01_RecyclerView.iml</string>
+    <string name="app_name">CriminalIntent</string>
+    <string name="student_title_hint">Enter a title for the student</string>
+    <string name="student_title_label">Title</string>
+    <string name="student_details_label">Details</string>
+    <string name="student_present_label">Present</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
