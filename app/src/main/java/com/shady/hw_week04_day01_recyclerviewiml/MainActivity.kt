@@ -1,8 +1,8 @@
-package com.example.movielist
+package com.shady.hw_week04_day01_recyclerviewiml
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import com.shady.hw_week04_day01_recyclerviewiml.MovieListFragment
 import com.shady.hw_week04_day01_recyclerviewiml.R
 
 class MainActivity : AppCompatActivity() {

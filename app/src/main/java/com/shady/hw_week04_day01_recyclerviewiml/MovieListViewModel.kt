@@ -1,8 +1,7 @@
-package com.example.movielist
+package com.shady.hw_week04_day01_recyclerviewiml
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
-
 
 
 class MovieListViewModel :ViewModel() {
@@ -11,16 +10,16 @@ class MovieListViewModel :ViewModel() {
 
     init {
 
-        val movie1 = Movie("No Time to Die", "Action & Adventure", "2021" )
-        val movie2 = Movie("Beauty and the beast", "Animation", "1991")
-        val movie3 = Movie("Shaun the Sheep", "Animation", "2015")
-        val movie4 =  Movie("Aliens", "Science Fiction", "1986" )
-        val movie5= Movie("Iron Man", "Action & Adventure", "2008")
-        val movie6 = Movie("Up", "Animation", "2009")
-        val movie7 = Movie("Chicken Run", "Animation", "2000")
-        val movie8 =  Movie("Goldfinger", "Action & Adventure", "1965")
-        val movie9 = Movie("Crouella", "Animation", "2020")
-        val movie10 = Movie("Miki Mouse", "Animation", "2000")
+        val movie1 = Movie("No Time to Die", "Action & Adventure", "2021")
+        val movie8 = Movie("Beauty and the beast", "Animation", "1991")
+        val movie3 = Movie("RON'S GONE WRONG", "Animation", "2021")
+        val movie4 = Movie("VENOM", "Action & Adventure", "2021")
+        val movie5 = Movie("Minamata", "Drama", "2021")
+        val movie6 = Movie("ANTLERS", "Horror", "2021")
+        val movie7 = Movie("UP", "Animation", "2000")
+        val movie2 = Movie("The Good Father", "Drama", "1972")
+        val movie9 = Movie("MONSTER FAMILY 2", "Animation", "2021")
+        val movie10 = Movie("Dune", "Action & Adventure", "2021")
 
 
         movies.add(movie1)
@@ -36,7 +35,8 @@ class MovieListViewModel :ViewModel() {
 
 
         movies.forEach { print(it) }
-        Log.d("somyah", movies.toString())
 
-}
+        Log.d("somyah", movies.toString())
+    }
+
 }

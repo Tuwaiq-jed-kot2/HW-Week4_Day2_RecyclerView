@@ -1,23 +1,21 @@
-package com.example.movielist
+package com.shady.hw_week04_day01_recyclerviewiml
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.shady.hw_week04_day01_recyclerviewiml.R
 
 
 class MovieListFragment : Fragment() {
 
     private  lateinit var movieRecyclerView: RecyclerView
-    val movieListViewModel by lazy {ViewModelProvider (this ).get(MovieListViewModel::class.java)}
+    private val movieListViewModel by lazy {ViewModelProvider (this ).get(MovieListViewModel::class.java)}
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -47,6 +45,7 @@ class MovieListFragment : Fragment() {
 
        val movieNameTextView:TextView=itemView.findViewById(R.id.movieName)
        val yearTextView:TextView=itemView.findViewById(R.id.year)
+       val generTextView:TextView=itemView.findViewById(R.id.gener)
 
 
 
@@ -54,15 +53,18 @@ class MovieListFragment : Fragment() {
         init {
             movieNameTextView.setOnClickListener(this)
             yearTextView.setOnClickListener(this)
+            generTextView.setOnClickListener(this)
         }
-       fun bind(movie :Movie){
+       fun bind(movie : Movie){
            this.movie=movie
            movieNameTextView.text=movie.movieName
            yearTextView.text=movie.year
+           generTextView.text=movie.genre
+
        }
 
         override fun onClick(v: View?) {
-            if (v== movieNameTextView){
+            if (v== generTextView){
                 if(movie.genre=="Animation"){
                 Toast.makeText(context,"The movie is kids friendly",Toast.LENGTH_LONG).show()}
                 else
