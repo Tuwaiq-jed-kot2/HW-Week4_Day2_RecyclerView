@@ -6,8 +6,10 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/cheat_activity.xml" value="0.184375" />
         <entry key="app/src/main/res/layout/emp_templet.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_employee.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/geo_quize.xml" value="0.1685185185185185" />
       </map>
     </option>
   </component>
