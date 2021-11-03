@@ -16,6 +16,7 @@ class clintUser : Fragment() {
     private val clintUserView by lazy { ViewModelProvider(this).get(ClintView::class.java)}
 
     override fun onCreateView(
+
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
@@ -24,7 +25,8 @@ class clintUser : Fragment() {
         val linearLM= LinearLayoutManager(context)
         clintRV.layoutManager=linearLM
 
-        val clintAdabter=ClintView(ClintView.clints)
+        val clintAdabter=ClintAdabter(clintUserView.clints)
+        clintRV.adapter=clintAdabter
 
 
 
@@ -32,31 +34,36 @@ class clintUser : Fragment() {
 
     }
 
-    override inner class ClintVH(view: View): RecyclerView.ViewHolder(view),View.OnClickListener{
-    private lateinit var clint:ClintView
-    val userClintTV:TextView=itemView.findViewById(R.id.user_Name)
-        val emailClintTV:TextView=itemView.findViewById(R.id.user_email)
-        val imageVI: View? =itemView.findViewById(R.id.imageVM_item)
+    private inner class ClintVH(view: View): RecyclerView.ViewHolder(view),View.OnClickListener {
+        private lateinit var clint: Clint
+        val userClintTV: TextView = itemView.findViewById(R.id.user_Name)
+        val emailClintTV: TextView = itemView.findViewById(R.id.user_email)
+
 
         init {
             userClintTV.setOnClickListener(this)
             emailClintTV.setOnClickListener(this)
         }
-        fun bind(clint: ClintView){ //set text send the data from onBindViewHolder
-            this.clint=clint
-            userClintTV.text=clint.userName
-            emailClintTV.text=clint.useremil
-            imageVI.
+
+        fun bind(clint: Clint) { //set text send the data from onBindViewHolder
+            this.clint = clint
+            userClintTV.text = clint.userName
+            emailClintTV.text = clint.useremil
 
 
         }
+
         override fun onClick(v: View?) {
-            Toast.makeText(context,"the user name is ${},the user emil is ${clint.clints}",Toast.LENGTH_SHORT).show()
+            Toast.makeText(
+                context,
+                "the user name is ${clint.userName},the user emil is ${clint.useremil}",
+                Toast.LENGTH_SHORT
+            ).show()
         }
 
+    }
 
-
-    private  inner class ClintAdabter(var clints:MutableList<ClintView>):RecyclerView.Adapter<ClintVH>(){
+    private  inner class ClintAdabter(var clints:MutableList<Clint>):RecyclerView.Adapter<ClintVH>(){
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ClintVH {
             val view=layoutInflater.inflate(R.layout.clint_user,parent,false)
             return ClintVH(view)
@@ -75,4 +82,3 @@ class clintUser : Fragment() {
     }
 
 
-}
