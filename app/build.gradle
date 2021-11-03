@@ -2,12 +2,12 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
 }
-
+apply plugin: 'kotlin-kapt'
 android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.shady.hw_week04_day01_recyclerviewiml"
+        applicationId "com.example.creminalintnt"
         minSdk 29
         targetSdk 31
         versionCode 1
@@ -40,4 +40,8 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation "androidx.room:room-runtime:2.4.0-beta01"
+    kapt "androidx.room:room-compiler:2.4.0-beta01"
+    implementation "androidx.room:room-ktx:2.4.0-beta01"
 }

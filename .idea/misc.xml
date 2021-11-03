@@ -4,7 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/menoa/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1125" />
+        <entry key="..\:/Users/menoa/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/Lest_item.xml" value="0.25" />
         <entry key="..\:/Users/menoa/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/menoa/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/lest_item.xml" value="0.1" />
+        <entry key="..\:/Users/menoa/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/listRe.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/menoa/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/menoa/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/list_re.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/menoa/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/m111.xml" value="0.25" />
         <entry key="..\:/Users/menoa/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/main111.xml" value="0.1712962962962963" />
         <entry key="..\:/Users/menoa/AndroidStudioProjects/HW-Week4_Day2_RecyclerView/app/src/main/res/layout/second.xml" value="0.1" />
       </map>

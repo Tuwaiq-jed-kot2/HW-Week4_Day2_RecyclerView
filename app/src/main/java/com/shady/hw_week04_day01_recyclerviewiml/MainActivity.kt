@@ -9,11 +9,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val currentFragment=supportFragmentManager.findFragmentById(
             R.id.fragmentC)
-        if (currentFragment!=null){
-            val fragment=Fragment_lisys()
+        if (currentFragment==null){
+            val fragment=Color_list()
             supportFragmentManager
                 .beginTransaction()
-                .replace(R.id.fragmentC,fragment)
+                .add(R.id.fragmentC,fragment)
                 .commit()
         }
     }
